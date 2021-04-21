@@ -1,0 +1,25 @@
+.welcome {
+    background-color:rgb(243, 222, 242);
+    border: 1px;
+    padding: 25px 30px 25px 30px;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(4, 53, 95);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dog_img {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 700px;
+    height: 300px;
+}
+.btnClass {
+    background-color:darkslategrey ;
+    font-size: 20px;
+    font-weight:bold;   
+    color: white;
+    border-radius: 5rem;
+    padding: 10px 10px 10px 10px;
+}
