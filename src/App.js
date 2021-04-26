@@ -1,13 +1,25 @@
-import logo from './logo.svg';
+import {BrowserRouter as Router, Switch,Route} from 'react-router-dom';
 import './App.css';
-import WelcomePg from './welcome/WelcomePg'
+
+import WelcomePg from './welcome/WelcomePg';
+import Toolbar from './toolbar/Toolbar';
+import ViewList from './viewlist/ViewList';
+import CustList from './custlist/CustList';
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <WelcomePg/>
-      </header>
-    </div>
+    
+     <Router>
+       <div className="App">
+       <Toolbar/>
+          <Switch>         
+            <Route path ="/CustList" component={CustList}/>
+            <Route path ="/ViewList" component={ViewList}/>      
+            <Route path ="/" component={WelcomePg}/>
+          </Switch>
+      </div>
+     </Router>
+    
   );
 }
 

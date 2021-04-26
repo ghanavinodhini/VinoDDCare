@@ -1,0 +1,22 @@
+.viewlist_imgclass {
+    height: 30%;
+    width: 30%;
+}
+
+.viewlist {
+
+    color: rgb(2, 39, 39) ;   
+    padding: 30px 30px 30px 30px;
+    background-color:rgb(233, 235, 225);
+}   
+
+.viewlist_tblclas{
+    border: 1px solid grey;
+    width: 70%;    
+  
+}
+
+.viewlist_tblheader {
+background-color: darkslategray;
+    color: white;
+}

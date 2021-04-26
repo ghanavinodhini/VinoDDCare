@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import './WelcomePg.css';
 import dog2 from './dog2.png';
 
@@ -8,19 +7,24 @@ import dog2 from './dog2.png';
         super(...args);
 
         this.state= {
-            message:"Enter to ths Site"
+            message:"Enter to ths Site",
+            viewDog:"Click to View"
         }
 }
 
 NavigatePage=()=>{
     this.setState({
-        message:"Thanks"
+        message:"Thanks for Click"
     });
-
 }
 
+NavigateViewDog=()=> {
+    this.setState({
+        viewDog:"Viewed Dog"
+    });
+}
     render(){
-        const {} = this.props;
+      
         return (
             <div class="welcome">
                 
@@ -30,9 +34,7 @@ NavigatePage=()=>{
                 <div class="welcomeImage">
                     <img class ="dog_img"src={dog2} alt=""/>
                 </div>
-                <div class="welcome_btn">
-                    <button class="btnClass" onClick={this.NavigatePage} >{this.state.message}</button>
-                </div>
+            
             </div>
         );
 }

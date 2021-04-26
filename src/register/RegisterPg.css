@@ -1,0 +1,12 @@
+.clsDogImg {
+    height: 95%;
+    width: 80%;
+}
+
+.list_univ {
+    color:maroon;
+    font-size: 12px;
+    border: 1px;
+    border-color: blueviolet;
+    padding: 10px 10px 10px 10px;
+}
