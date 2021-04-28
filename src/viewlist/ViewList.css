@@ -1,22 +1,50 @@
-.viewlist_imgclass {
-    height: 30%;
-    width: 30%;
+.viewlist_img {
+    height:50;
+    width: 50%;
+}
+
+.viewlist_img {
+    box-shadow: 5px 4px 10px #a8a6a6;
 }
 
 .viewlist {
-
-    color: rgb(2, 39, 39) ;   
-    padding: 30px 30px 30px 30px;
     background-color:rgb(233, 235, 225);
+    border: 1px;
+    display: flex;    
+    justify-content: center;
+    padding-top: 1rem;
+    color: rgb(2, 39, 39) ; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
 }   
 
 .viewlist_tblclas{
     border: 1px solid grey;
-    width: 70%;    
-  
+    font-weight: normal;
 }
 
 .viewlist_tblheader {
 background-color: darkslategray;
     color: white;
 }
+
+.viewlist_header {
+    color: rgb(2, 39, 39) ;
+}
+
+.viewlist_tbldetail {
+    border: 1px solid grey;
+
+}
+
+.viewlist_tblcolumn {
+
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .viewlist {
+      font-size: 12px;      
+    }
+  }

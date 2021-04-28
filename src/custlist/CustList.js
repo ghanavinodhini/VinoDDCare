@@ -21,7 +21,7 @@ async componentDidMount() {
             <div className="custlist">
                <table className="custlist_table">
                     <tr className="custlist_table_header">
-                      <th>Owner Name</th>
+                      <th>Owner First Name</th>
                       <th>Last Name</th>
                       <th>Phone Number</th>
                       <th>Dog Name</th>
@@ -38,7 +38,7 @@ async componentDidMount() {
                       <td>
                       {item.owner.phoneNumber}
                       </td>
-                      <td>
+                      <td className="custlist_tblcolumn">
                       {item.name}
                       </td>
                     </tr>     

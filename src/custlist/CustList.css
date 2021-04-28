@@ -6,8 +6,10 @@
 
 .custlist {
     color: rgb(2, 39, 39) ;   
-    padding: 30px 30px 30px 30px;
     background-color:rgb(233, 235, 225);
+    justify-content: center;
+    display: flex;
+    padding-top: 1rem;
 }
 
 table {
@@ -18,4 +20,9 @@ table {
 .custlist_table_header {
     background-color: darkslategray;
     color: white;
+}
+
+.custlist_tblcolumn {
+    
+    font-weight: bold;
 }
