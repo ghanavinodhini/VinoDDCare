@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VinoDDCare/static/css/main.f53a5651.chunk.css",
+    "main.js": "/VinoDDCare/static/js/main.a907241c.chunk.js",
+    "main.js.map": "/VinoDDCare/static/js/main.a907241c.chunk.js.map",
+    "runtime-main.js": "/VinoDDCare/static/js/runtime-main.89bd8924.js",
+    "runtime-main.js.map": "/VinoDDCare/static/js/runtime-main.89bd8924.js.map",
+    "static/js/2.fe4d629e.chunk.js": "/VinoDDCare/static/js/2.fe4d629e.chunk.js",
+    "static/js/2.fe4d629e.chunk.js.map": "/VinoDDCare/static/js/2.fe4d629e.chunk.js.map",
+    "static/js/3.8b104feb.chunk.js": "/VinoDDCare/static/js/3.8b104feb.chunk.js",
+    "static/js/3.8b104feb.chunk.js.map": "/VinoDDCare/static/js/3.8b104feb.chunk.js.map",
+    "index.html": "/VinoDDCare/index.html",
+    "static/css/main.f53a5651.chunk.css.map": "/VinoDDCare/static/css/main.f53a5651.chunk.css.map",
+    "static/js/2.fe4d629e.chunk.js.LICENSE.txt": "/VinoDDCare/static/js/2.fe4d629e.chunk.js.LICENSE.txt",
+    "static/media/dog2.79d611fd.png": "/VinoDDCare/static/media/dog2.79d611fd.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89bd8924.js",
+    "static/js/2.fe4d629e.chunk.js",
+    "static/css/main.f53a5651.chunk.css",
+    "static/js/main.a907241c.chunk.js"
+  ]
+}
