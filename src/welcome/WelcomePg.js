@@ -3,10 +3,7 @@ import './WelcomePg.css';
 import dog2 from './dog2.png';
 
  class WelcomePg extends Component {
-    constructor(...args){
-        super(...args);
-
-}
+   
 
 
     render(){

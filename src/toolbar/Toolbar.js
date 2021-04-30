@@ -15,7 +15,7 @@ const toolbar = props => (
               <a href ="/CustList">Customers</a>          
             </li>
             <li>
-              <a href="/ViewList">View List</a>
+              <a href="/ViewList">Dog List</a>
             </li>
           </ul>
       </div>
